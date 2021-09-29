@@ -6,6 +6,9 @@ Updated by: Ho Yu Yat (yyhoai@connect.ust.hk), Lau Ka Kit, Danny (kkdlau@connect
 
 Further Modified by: Li Ka Yau Elwin (kyeliaa@connect.ust.hk)
 
+## Zoom Recording Video link:
+https://hkust.zoom.us/rec/share/J6D3gKIpbtFN6QeA1KPHsYtiXwKdyhTQGfe_lCcewK5JsP6ZR2vgQmpZYngfdaeu.cwQDbyrQqIs-x-sq
+
 ## Table of Content
 
 [TOC]
