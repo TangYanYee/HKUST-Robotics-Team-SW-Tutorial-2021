@@ -1188,8 +1188,8 @@ Following is the score-to-grade table of the two courses:
 |:-----------:|:-------:|
 |  85 - 100   | A Range |
 |   75 - 84   | B Range |
-|   55 - 64   | C Range |
-|   35 - 44   | D Range |
+|   55 - 74   | C Range |
+|   35 - 54   | D Range |
 |   25 - 34   | E Range |
 |   0 - 24    | F Range |
 
