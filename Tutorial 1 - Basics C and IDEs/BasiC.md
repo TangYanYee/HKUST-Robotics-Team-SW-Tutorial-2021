@@ -1170,7 +1170,7 @@ You can try this out at: https://playtictactoe.org/
 Write a program which two players (PVP) can play this game together.
 > :exclamation: No need to handle non-numerical inputs such as "abc" and "ilovetimwoo")
 
-Skeleton code is provided: [Skeleton Code for "Tic-Tac-Toe"](https://github.com/HKUST-Robotics-Team/Software-Tutorial-2021/tree/master/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Homework_1/Skeleton_Code/Tic-Tac_Toe)
+Skeleton code is provided: [Skeleton Code for "Tic-Tac-Toe"](https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/tree/main/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Classwork_1/Skeleton_Code/Tic_Tac_Toe)
 
 Tips: Using Array and Switch Statement are highly recommanded.
 
@@ -1210,7 +1210,7 @@ Output:
 * `0.0 <= input <= 100.0`
 * Either a numerical input, or `"quit"` will be entered.
 
-Skeleton Code is provided: [Skeleton Code for "Absolute Grading"](https://github.com/HKUST-Robotics-Team/Software-Tutorial-2021/blob/master/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Homework_1/Skeleton_Code/Absolute_Grading/main.c)
+Skeleton Code is provided: [Skeleton Code for "Absolute Grading"](https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/tree/main/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Classwork_1/Skeleton_Code/Absolute_Grading)
 
 
 ## Reference Materials
