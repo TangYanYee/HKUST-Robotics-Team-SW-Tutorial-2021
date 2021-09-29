@@ -114,7 +114,7 @@
 | Ferdy          | ferdy@connect.ust.hk       | 5508 9882 |
 | Harrison       | sloab@connect.ust.hk       | 6748 0275 |
 | Johnathan      | jjjlaw@connect.ust.hk      | 5533 1625 |
-| Lo             | klloaj@connect.ust.hk      | 6605 1573 |
+| Law            | klloaj@connect.ust.hk      | 6605 1573 |
 | Joyce          | ytliag@connect.ust.hk      | 9340 6333 |
 | Michelle       | cmmchan@connect.ust.hk     | 6735 8619 |
 | Ricky          | shkongab@connect.ust.hk    | 6826 3015 |
