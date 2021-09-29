@@ -1,6 +1,6 @@
-int square[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+int square[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-void grid_create (void){
+static void grid_create(void) {
   printf("Welcome to Tic-Tac-Toe\n");
 
   printf("Player 1 (X)  -  Player 2 (O)\n\n");
