@@ -60,7 +60,7 @@ Enter a number to append to the number set. Enter "\" to stop appending.
 >9
 >0
 >2
->\
+>/
 Mean = 3
 Mode = 2
 Median = 2
