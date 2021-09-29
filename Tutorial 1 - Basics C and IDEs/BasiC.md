@@ -146,8 +146,8 @@ There is actually several more common, non-primitive types.
 
 |  Type  |                                    Description                                    | Example |
 |:------:|:---------------------------------------------------------------------------------:|:-------:|
-| `void` |                                The absence of type                                | `true`  |
-| `bool` | 8-bit boolean (i.e. true / false). To use this type, you must include <stdbool.h> |    /    |
+| `void` |                                The absence of type                                |      /  |
+| `bool` | 8-bit boolean (i.e. true / false). To use this type, you must include <stdbool.h> | `true`    |
 
 #### Signs and Modifiers
 
