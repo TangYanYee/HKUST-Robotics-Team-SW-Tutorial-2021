@@ -1,4 +1,4 @@
-int square[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+char square[9] = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '};
 
 static void grid_create(void) {
   printf("Welcome to Tic-Tac-Toe\n");
