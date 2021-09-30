@@ -95,6 +95,7 @@ Some things to take note of:
 
   ![](https://i.imgur.com/xfCwlsq.png)
 
+> [classwork-01](https://hackmd.io/Fpr8vuHJS1WGAyE3t-Omfg?view#ex-1)
 
 ## File Types
 
@@ -372,6 +373,8 @@ As your code becomes longer, you will forget about what they are. It is also cle
 When you are naming a numerical variable, name it a meaningfully, such as `rpm`, `velocity`, `id`, instead of `abc`, `hi`, or `hhh`, which no one would understand what are they about. 
 When you are naming a Boolean variable, name it a logical statement, like `is_repeat`,  `found_path`, `has_changed`, etc.
 
+> [classwork-02](https://hackmd.io/Fpr8vuHJS1WGAyE3t-Omfg?view#ex-2)
+
 ## Standard Input / Output
 
 A program communicates with the outside using standard input and standard output. The most common ways to input and output in C, are reading and writing to and from the console and files.
@@ -417,6 +420,8 @@ No specifiers.
 */
 ```
 
+> [classwork-03](https://hackmd.io/Fpr8vuHJS1WGAyE3t-Omfg?view#ex-3)
+
 ### Console Input
 
 The function `void scanf(const char*, ...)` reads input from the console and stores it into the given variables. To read variables, specify the data type token and provide the address to the variable. The syntax for `scanf` is similar to `printf`, but an **ampersand** (`&`) is required before the variable name.
@@ -437,6 +442,8 @@ int main() {
 > **Q**: What is the use of `&`?
 > 
 > **A**: A variable consists of a name, value and address. `&` returns the address of the variable. This topic (pointers) will be taught in depth in later advanced notes which will not be covered in tutorial.
+
+> [classwork-04](https://hackmd.io/Fpr8vuHJS1WGAyE3t-Omfg?view#ex-4)
 
 ## Arrays
 
@@ -588,7 +595,8 @@ map[3][2] = 3;
 
 ![](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cmathrm%7Bmap%20=%20%7D%5Cbegin%7Bpmatrix%7D1%20&%205%20&%202%20%5C%5C3%20&%204%20&%209%20%5C%5C7%20&%206%20&%204%20%5C%5C5%20&%205%20&%203%20%5C%5C%5Cend%7Bpmatrix%7D)
 
-
+> [classwork-05](https://hackmd.io/Fpr8vuHJS1WGAyE3t-Omfg?view#ex-5)
+> [classwork-06](https://hackmd.io/Fpr8vuHJS1WGAyE3t-Omfg?view#ex-6)
 ## Operators
 
 Operators help us to perform the most fundamental mathematical or logical operations on variables.
@@ -1132,6 +1140,7 @@ int main(){
     return 0;
 }
 ```
+[classwork-07](https://hackmd.io/Fpr8vuHJS1WGAyE3t-Omfg?view#ex-7)
 
 ## Program Time
 
@@ -1161,60 +1170,6 @@ The easiest way to debug is to print stuff out, so that you can track (1) how yo
 If you really don't know which lines of code cause bugs, you can comment parts of your code and run the code again to see if the bugs reappear or not.
 
 Enjoy your time debugging!
-
-## Classwork
-
-### Tic-Tac-Toe
-
-Have you ever played tic-tac-toe before? It is a simple game for two players, who take turns marking spaces in a 3 X 3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner.
-
-You can try this out at: https://playtictactoe.org/
-
-Write a program which two players (PVP) can play this game together.
-> :exclamation: No need to handle non-numerical inputs such as "abc" and "ilovetimwoo")
-
-Skeleton code is provided: [Skeleton Code for "Tic-Tac-Toe"](https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/tree/main/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Classwork_1/Skeleton_Code/Tic_Tac_Toe)
-
-Tips: Using Array and Switch Statement are highly recommanded.
-
-#### Bonus
-
-Write a program which only one player can be played with the computer as his / her foe (PVE).
-
-### Absolute Grading
-
-MATH 1012 and MATH 1013 are harsh. They are graded by your total scores among your homework, mid-term exam and final exam, instead of graded by comparing your total scores to others.
-
-Following is the score-to-grade table of the two courses:
-
-| Score Range |  Grade  |
-|:-----------:|:-------:|
-|  85 - 100   | A Range |
-|   75 - 84   | B Range |
-|   55 - 74   | C Range |
-|   35 - 54   | D Range |
-|   25 - 34   | E Range |
-|   0 - 24    | F Range |
-
-Write a program, when TAs input your total scores to the program, the program output the corresponding range of your grade.
-
-The program should be terminated when `"quit"` is input.
-
-For example:
-
-Input:
-`89`
-
-Output:
-`A Range`
-
-#### Assumption
-
-* `0.0 <= input <= 100.0`
-* Either a numerical input, or `"quit"` will be entered.
-
-Skeleton Code is provided: [Skeleton Code for "Absolute Grading"](https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/tree/main/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Classwork_1/Skeleton_Code/Absolute_Grading)
-
 
 ## Reference Materials
 
