@@ -87,12 +87,13 @@ git clone https://github.com/HKUST-Robotics-Team/Example path/to/your/repo
 ```
 
 #### Github Desktop
-![](https://imgur.com/a/CNNx5G9)
-
 1. Click the green <kbd>Code</kbd> button.
 2. Click <kbd>Open with Github Desktop</kbd>.
+![](https://i.imgur.com/VOGlO0e.png)
+
 3. Specify a local path (default is ok).
 4. Press <kbd>Clone</kbd>.
+![](https://i.imgur.com/NXuXP2z.png)
 
 ### Development Workflow - Commit
 Perhaps you've made some changes on the local side. Maybe you edited some code, moved some files or deleted some junk. It's time to sync up the remote repo with your local copy.
@@ -136,6 +137,7 @@ git commit -m "(sensible message, preferrably describing what you changed and wh
 3. Write a commit description (optional).
 4. Press <kbd>Commit to ...</kbd>. (Ctrl/Cmd + Enter)
 
+![](https://i.imgur.com/SE5H53a.png)
 
 ### Development Workflow - Push
 Now you want to upload your changes to the remote repository.
@@ -145,8 +147,11 @@ Simplest command:
 ```
 git push
 ```
+If there are no merge conflicts and you have a stable connection, you're done!
 
 #### Github Desktop
 
 1. Press the push button in the top row. (Ctrl/Cmd + P)
+2. If there are no merge conflicts and you have a stable connection, you're done!
 
+![](https://i.imgur.com/uEmOIQs.png)
