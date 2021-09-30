@@ -1,5 +1,5 @@
-# More about Git
-This file was moved here from Software Tutorial notes. You may self-study this in your own time.
+# Git Gud
+This document discusses more Git/Github features for you to git gud <sub><sub><sub>haha!</sub></sub></sub> at git.
 
 ### Branches
 - Run `git branch` to see a list of branches on the repository. Your current branch will be indicated with an asterisk on the left.
