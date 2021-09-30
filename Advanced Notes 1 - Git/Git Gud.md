@@ -1,5 +1,5 @@
 # Git Gud
-This document discusses more Git/Github features for you to git gud <sub><sub><sub>haha!</sub></sub></sub> at git. You should read through [Git Basics][basics] before reading this.
+This document discusses more Git/Github features for you to git gud <sub><sub><sub>haha!</sub></sub></sub> at git. We recommend you to read through [Git Basics][basics] before reading this.
 
 [basics]: https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/blob/main/Advanced%20Notes%201%20-%20Git/Git%20Basics.md
 
