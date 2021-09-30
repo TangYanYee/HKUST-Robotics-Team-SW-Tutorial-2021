@@ -1,5 +1,7 @@
 # Git Gud
-This document discusses more Git/Github features for you to git gud <sub><sub><sub>haha!</sub></sub></sub> at git.
+This document discusses more Git/Github features for you to git gud <sub><sub><sub>haha!</sub></sub></sub> at git. You should read through [Git Basics][basics] before reading this.
+
+[basics]: https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/blob/main/Advanced%20Notes%201%20-%20Git/Git%20Basics.md
 
 ### Branches
 - Run `git branch` to see a list of branches on the repository. Your current branch will be indicated with an asterisk on the left.
