@@ -154,4 +154,4 @@ If there are no merge conflicts and you have a stable connection, you're done!
 1. Press the push button in the top row. (Ctrl/Cmd + P)
 2. If there are no merge conflicts and you have a stable connection, you're done!
 
-![](https://i.imgur.com/uEmOIQs.png)
+![](https://i.imgur.com/swtCg3E.png)
