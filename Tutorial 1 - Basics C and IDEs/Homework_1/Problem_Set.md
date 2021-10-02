@@ -36,6 +36,9 @@ Please enter the current number system:
 Error! That set of number is not a binary number.
 ```
 
+> :warning: **Warning**:
+> You are not allowed to use <math.h> in this question.
+
 ## Mean, Mode and Median
 
 Mean is the average value of a set of numbers. 
@@ -53,7 +56,7 @@ E.g. Median of {1, 1, 2, 3, 4, 5} = (2 + 3) / 2 = 2.5
 You are required to write a program to find out the mean, mode and median of a set of numbers. The interface of the execution of the program should be like this:
 
 ```c
-Enter a number to append to the number set. Enter "/" to stop appending.
+Enter a number to append to the number set. Enter "\" to stop appending.
 >1
 >2
 >4
