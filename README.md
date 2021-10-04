@@ -83,7 +83,7 @@
 | Event   |        | Tutorial 1  | Tutorial 1  | Tutorial 2  | Tutorial 2  |             |           |
 | Time    |        | 1900 ~ 2200 | 1900 ~ 2200 | 1900 ~ 2200 | 1900 ~ 2200 |             |           |
 | Session |        | Session 1   | Session 2   | Session 3   | Session 4   |             |           |
-| Venue   |        | 4219        | 6602        | 4219        | 6602        |             |           |
+| Venue   |        | 6602        | 6602        | 4219        | 6602        |             |           |
 | Date    | 10/10  | 11/10       | 12/10       | 13/10       | 14/10       | 15/10       | 16/10     |
 | Event   |        | Tutorial 2  | Tutorial 2  | Tutorial 3  |             | Tutorial 3  |           |
 | Time    |        | 1900 ~ 2200 | 1900 ~ 2200 | 1900 ~ 2200 |             | 1900 ~ 2200 |           |
