@@ -56,7 +56,7 @@ E.g. Median of {1, 1, 2, 3, 4, 5} = (2 + 3) / 2 = 2.5
 You are required to write a program to find out the mean, mode and median of a set of numbers. The interface of the execution of the program should be like this:
 
 ```c
-Enter a number to append to the number set. Enter "/" to stop appending.
+Enter a number to append to the number set. Enter "\" to stop appending.
 >1
 >2
 >4
@@ -68,6 +68,9 @@ Mean = 3
 Mode = 2
 Median = 2
 ```
+
+> :warning: **Warning**:
+> Only integer need to be handled. However, you should also handle multi-digits instead of single digits. E.g. the set of number may contain numbers equal to or larger than 10.
 
 ## Simple Calculator
 
