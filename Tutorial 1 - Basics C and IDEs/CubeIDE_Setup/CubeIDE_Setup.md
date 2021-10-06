@@ -25,7 +25,7 @@ First thing first, please download the STM32CubeIDE from Github [release](https:
 
 After you have installed the IDE, please follow the steps below to properly setup your **Integrated Development Environment**
 
-Download the code boilerplate we prepared for you from Github [release](https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/releases/tag/code).
+Download the code boilerplate we prepared for you from Github [release](https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/releases/tag/code_v2.0).
 _Note that we may have some library changes from time to time. So always follow what the tutorial notes say._
 
 ### Import the project files
@@ -57,7 +57,7 @@ _Note that we may have some library changes from time to time. So always follow 
 > 
 > 3.1 Choose STM32 Application the left and select _Debugger_ Tab.
 > 
-> 3.2 Change Debug probe to `ST-LINK (OpenOCD)`
+> 3.2 Change Debug probe to `ST-LINK (OpenOCD)`. :heavy_exclamation_mark: If you are running on OSX, change the line OpenOCD Command to `"${stm32cubeide_openocd_path}/openocd"`
 > 
 > 3.3 Click `Show generator options...` under `Configuration Scripts` to reveal more options.
 > 
