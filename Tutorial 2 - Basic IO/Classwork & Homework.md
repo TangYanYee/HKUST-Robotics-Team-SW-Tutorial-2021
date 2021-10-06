@@ -2,6 +2,12 @@
 
 In order to familiarize yourself in the overall coding structure and different IO, we've prepared some classwork for you. Please try to finish the tasks before leaving. You can ask for help if you encounter any difficulties.
 
+## Code boilerplate
+
+If you have not download the latest boilerplate, you may install v2.0 [here](https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/releases/tag/code_v2.0). 
+
+:heavy_exclamation_mark:Important! You don't need to do `TFT library` and `Skeleton code` below if you import v2.0 version.
+
 ## TFT library
 
 Please check this [note](https://hackmd.io/@leowong12138/HkCcNwPNF) out to include the LCD TFT library.
@@ -81,7 +87,7 @@ Edge Triggering (10 marks)
 
 #### Demonstration
 
-You are required to demonstate the homework to seniors at Room CYT3007. Seniors will help your to review your homework and record the performance of your code.
+You are required to demonstate the homework to seniors at Room CYT3007B. Seniors will help your to review your homework and record the performance of your code.
 
 #### Github
 
