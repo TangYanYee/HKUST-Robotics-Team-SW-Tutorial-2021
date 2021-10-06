@@ -121,7 +121,7 @@ Output:
   * For example, in C, `15 / 2` returns `7` as left operand and right operand are both integer.
   * However, for this question, `7.5` should be returned.
 
-Skeleton Code is provided: [Skeleton Code for "Simple Calculator"](https://github.com/HKUST-Robotics-Team/Software-Tutorial-2021/tree/master/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Homework_1/Skeleton_Code/Simple_Calculator)
+Skeleton Code is provided: [Skeleton Code for "Simple Calculator"](https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/tree/main/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Homework_1/Skeleton_Code/Simple_Calculator)
 
 ## Challenging Question - Score Attack
 
