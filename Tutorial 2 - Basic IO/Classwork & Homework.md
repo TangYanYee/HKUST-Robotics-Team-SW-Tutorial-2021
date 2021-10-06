@@ -8,7 +8,7 @@ Please check this [note](https://hackmd.io/@leowong12138/HkCcNwPNF) out to inclu
 
 ## Skeleton code
 
-Get the skeleton code [here](https://github.com/HKUST-Robotics-Team/Software-Tutorial-2021/blob/master/Tutorial%202%20-%20Basic%20IO/tutorial2_hw_skeleton.c) and drag it into your directory. Comment out the lcd include first, we are not using it for now. Also, add the function prototypes in `main.c` for the declaration of the functions.
+Get the skeleton code [here](https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/blob/main/Tutorial%202%20-%20Basic%20IO/tutorial2_hw_skeleton.c) and drag it into your directory. Comment out the lcd include first, we are not using it for now. Also, add the function prototypes in `main.c` for the declaration of the functions.
 
 ```c
 /* main.c */
