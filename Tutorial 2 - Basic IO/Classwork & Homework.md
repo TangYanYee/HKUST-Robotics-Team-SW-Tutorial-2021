@@ -80,8 +80,8 @@ Edge Triggering (10 marks)
 #### (Bonus) - For those who want some fun (15 marks)
 
 - Create a sprite in the middle of the screen. (Can be in any shape other than simple rectangle) (3m)
-- It will move to the left for one CHAR_WIDTH when BTN1 is pressed, move to the right for one CHAR_WIDTH when BTN2 is pressed. (5m)
-- Long press (> 250ms) and release BTN1 for it to move up for one CHAR_HEIGHT. Long press and release BTN2 for it to move down for one CHAR_HEIGHT. (7m)
+- It will move to the left for one CHAR_WIDTH when BTN1 is clicked and released, move to the right for one CHAR_WIDTH when BTN2 is clicked and released. (5m)
+- Long press (> 300ms) and release BTN1 for it to move up for one CHAR_HEIGHT. Long press and release BTN2 for it to move down for one CHAR_HEIGHT. (7m)
 
 ## Format of submitting Homework
 
