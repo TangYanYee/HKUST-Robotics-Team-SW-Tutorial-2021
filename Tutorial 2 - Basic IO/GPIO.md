@@ -277,4 +277,4 @@ uint8_t pressed = btn_read(BTN1);
 // Remember the onboard button will give a low signal when clicked, and a high signal otherwise
 ```
 
-Do classwork [Task 1](https://github.com/HKUST-Robotics-Team/Software-Tutorial-2021/blob/master/Tutorial%202%20-%20Basic%20IO/Classwork%20%26%20Homework.md#task1) when you see this!
+Do classwork [Task 1](https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/blob/main/Tutorial%202%20-%20Basic%20IO/Classwork%20%26%20Homework.md#task1) when you see this!
