@@ -63,15 +63,15 @@ You may find these defines in `lcd.h` useful:
 
 Consider 2 uses for a button:
 
-Level Triggering (5 marks)
+Q1 Level Triggering (5 marks)
 
 - While the button is down print `Hello, (Your name)` on TFT (2m), while it is not, flash the LED (2m). Two actions should not happen simultaneously (1m).
   - In this case every time the loop comes around, we are concerned with the current state (or level) of the buttons GPIO Pin
   - The implementation of the button reading here should be obvious and simple
 
-Edge Triggering (10 marks)
+Q2 Edge Triggering (10 marks)
 
-- What if, we wanted to print `Hello, (Your name)` for 1 second when the button is first clicked, but only once, so holding the button does nothing more (5m). When the button is first released, we want to flash the LED, but again only once(5m)
+- What if, we wanted to print `Hello, (Your name)` for 1 second when the button is clicked (<200 ms), so holding the button does nothing more (5m). When the button is released, we want to flash the LED for 1 second.(5m). The process repeats. i.e. it will print text again if you click the button. 
   - The event of a signal going from low to high is called the _rising edge_ and the opposite is the _falling edge_
   - The `gpio_read()` macro gives us the current state, but edge triggering also requires knowledge of the past state as well as some logic
 
