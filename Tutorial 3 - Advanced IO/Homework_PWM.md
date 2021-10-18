@@ -59,7 +59,7 @@ The task is split into several checkpoints. To get the points of a checkpoint, y
 
 *  Having the weapon oscillate from side to side based on button clicks [3]
 *  Having 2 stages at Heavy Attack mode. [3]
-* Having correct LED blinking action when holding the button.[4] 
+*  Having correct LED blinking action when holding the button.[4] 
 *  Having correct Non fully-charged Heavy Attack [2]
 *  Having correct Fully-charged Heavy Attack [3]
 
@@ -74,7 +74,8 @@ You can design your own Special Attack:
 
 
 ### Story:
-There are 3 villains with differnt HP. You now need to beat them(make ther HP become 0 or less). 
+There are 3 villains with differnt HP. You now need to beat them(make ther HP become 0 or less). At first user will enter a selecting mode which will allow them to select the villain to attack.
+
 Each of the attack will output different anount of damage with different effects:
 Light Attack: -10 HP to single villains
 Heavy Attck(not fully charged): -10 HP to the selected villains and -5 HP to the villains next to the selected one.
@@ -82,8 +83,9 @@ Heavy Attack(fully charged): -15 HP to the selected villains and -10 HP to the v
 Special Attack: -20 HP to all villain.
 
 Usage of button:
-- Button 1: Short press->choose villain to attack. Long press(1s)->Light attack.
+- Button 1: Short press->Light attack. Long press->choose villain to attack.
 - Button 2: Heavy attack.
+- Exit selecting mode with pressing both button 
 
 There are several rules have to obey:
 - Can use Light Attack at any time.
@@ -98,7 +100,7 @@ Instructions[Point(s)]:
 - Subtract the HP correctly with all 3 types of attack [7]
 - Correct sequence of villain selection [4 + 5]
   - At the beginning, the player can select a villain [4]
-  - After the first round, the right villain will be selected (wrap around if needed) [5]
+  - After the first round, the right villain will be selected (no need button pressed)(wrap around if needed) [5]
 - Perform attack rule checking [10]
   - e.g. after two light attacks, a heavy attack can be performed
 - Add a Winning message when all villain has 0 or less hp. [1]
