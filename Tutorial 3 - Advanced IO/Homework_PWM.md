@@ -25,15 +25,15 @@ When there is nothing to do, the weapon stays at Resting Angle of either side. A
 #### Button Arrangement
 [Light Attack] [Heavy Attack] [Special Attack]
 
-An attack request is made when the corresponding button is pressed.
+An attack request is made when the corresponding button is pressed. Notice that there are only 2 buttons on the board, u guys can decide how to use 2 button to do 3 buttons task.
 
 #### Light Attack
 It means a sweeping. A Light Attack needs to move slower then the Heavy Attack.
 
-> Sweeping: It means starts at 20deg, moves towards the target and ends at 160deg (of the opposite side).
+> Sweeping: It means starts at 0deg, moves towards the target and ends at 180deg (of the opposite side).
 
 #### Heavy Attack
-It consists of 2 stages. First, it pausing at 20deg (charging for 2 seconds) until the player releases the Heavy Attack button.
+It consists of 2 stages. First, it start at 0 deg and pausing at 40deg (charging for 2 seconds) until the player releases the Heavy Attack button.
 
 While performing the heavy attack, you should also use LEDs to indicate the charging status as shown:
 
