@@ -41,10 +41,11 @@ While performing the heavy attack, you should also use LEDs to indicate the char
 
 | State | LED Status | Duration |
 | ----- |:---------- | -------- |
-| 1     | [0][0][0]  | 0.5s     |
-| 2     | [1][0][0]  | 0.5s     |
-| 3     | [1][1][0]  | 0.5s     |
-| 4     | [1][1][1]  | 0.5s     |
+| 1     | [0][0][0][0]  | 0.0~0.499s     |
+| 2     | [1][0][0][0]  | 0.5~0.999s     |
+| 3     | [1][1][0][0]  | 1~1.499s     |
+| 4     | [1][1][1][0]  | 1.5~1.999s     |
+| 5     | [1][1][1][1]  | >=2.0s     |
 
 > Note: **[0]** = LED off, **[1]**: LED on.
 
@@ -80,7 +81,7 @@ Heavy Attck(not fully charged): -10 HP to the selected villains and -5 HP to the
 Heavy Attack(fully charged): -15 HP to the selected villains and -10 HP to the villains next to the selected one.
 Special Attack: -20 HP to all villain.
 
-At first the user can use one button to selected which villain to start with. Then use the rest of the 2 buttons to do the Light and Heavy Attack.
+At first the user can use one button to selected which villain to start with. Then use the rest of the 1 buttons to do the Light and Heavy Attack.
 When one attack action is done, it will choose the right one as the next target. When it is at the most right, it will select the most left one as the next target.
 
 There are several rules have to obey:
@@ -99,5 +100,6 @@ Instructions[Point(s)]:
   - After the first round, the right villain will be selected (wrap around if needed) [5]
 - Perform attack rule checking [10]
   - e.g. after two light attacks, a heavy attack can be performed
+- Add a Winning message when all villain has 0 or less hp. [1]
 
 
