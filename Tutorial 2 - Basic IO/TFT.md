@@ -155,11 +155,11 @@ uint8_t tft_update2(uint32_t period);
 ##### Miscellaneous
 
 ```c
-void drawLine(uint16_t color, int16_t x0, int16_t y0, int16_t x1, int16_t y1);
+void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);
 
-void drawCircle(uint16_t color, int16_t x0, int16_t y0, int16_t r);
+void drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color);
 
-void drawTriangle(uint16_t color, int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2)
+void drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color)
 ```
 
 ### Example of using TFT
