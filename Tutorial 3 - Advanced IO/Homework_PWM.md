@@ -82,10 +82,17 @@ Heavy Attck(not fully charged): -10 HP to the selected villains and -5 HP to the
 Heavy Attack(fully charged): -15 HP to the selected villains and -10 HP to the villains next to the selected one.
 Special Attack: -20 HP to all villain.
 
-Usage of button:
-- Button 1: Short press->Light attack. Long press->choose villain to attack.
-- Button 2: Heavy attack.
-- Exit selecting mode with pressing both button 
+There are 2 modes:
+- Selecting mode: which let user select which to attack first.
+- Attack mode: which user can choose the attack.
+
+Usage of button in Selecting mode:
+- Button 1: Choose villain to attack.
+- Button 2: Exit the "Selecting mode" and automatically swap to "Attack Mode".
+
+Usage of button in Attack mode:
+- Button 1: Light Attack.
+- Button 2: Heavy Attack.
 
 There are several rules have to obey:
 - Can use Light Attack at any time.
@@ -100,7 +107,7 @@ Instructions[Point(s)]:
 - Subtract the HP correctly with all 3 types of attack [7]
 - Correct sequence of villain selection [4 + 5]
   - At the beginning, the player can select a villain [4]
-  - After the first round, the right villain will be selected (no need button pressed)(wrap around if needed) [5]
+  - After the first round, the villain on the right hand side will be selected automatically(no need button pressed)(wrap around if needed) [5]
 - Perform attack rule checking [10]
   - e.g. after two light attacks, a heavy attack can be performed
 - Add a Winning message when all villain has 0 or less hp. [1]
