@@ -81,8 +81,9 @@ Heavy Attck(not fully charged): -10 HP to the selected villains and -5 HP to the
 Heavy Attack(fully charged): -15 HP to the selected villains and -10 HP to the villains next to the selected one.
 Special Attack: -20 HP to all villain.
 
-At first the user can use one button to selected which villain to start with. Then use the rest of the 1 buttons to do the Light and Heavy Attack.
-When one attack action is done, it will choose the right one as the next target. When it is at the most right, it will select the most left one as the next target.
+Usage of button:
+- Button 1: Short press->choose villain to attack. Long press(1s)->Light attack.
+- Button 2: Heavy attack.
 
 There are several rules have to obey:
 - Can use Light Attack at any time.
