@@ -77,9 +77,13 @@ You can design your own Special Attack:
 There are 3 villains with differnt HP. You now need to beat them(make ther HP become 0 or less). At first user will enter a selecting mode which will allow them to select the villain to attack.
 
 Each of the attack will output different anount of damage with different effects:
+###
 Light Attack: -10 HP to single villains
+###
 Heavy Attck(not fully charged): -10 HP to the selected villains and -5 HP to the villains next to the selected one.
+###
 Heavy Attack(fully charged): -15 HP to the selected villains and -10 HP to the villains next to the selected one.
+###
 Special Attack: -20 HP to all villain.
 
 There are 2 modes:
