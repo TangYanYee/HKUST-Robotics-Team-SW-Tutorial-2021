@@ -111,7 +111,7 @@ Instructions[Point(s)]:
 - Subtract the HP correctly with all 3 types of attack [7]
 - Correct sequence of villain selection [4 + 5]
   - At the beginning, the player can select a villain [4]
-  - After the first round, the villain on the right hand side will be selected automatically(no need button pressed)(wrap around if needed) [5]
+  - After the Selecting mode, the villain on the right hand side will be selected automatically(no need button pressed)(wrap around if needed) [5]
 - Perform attack rule checking [10]
   - e.g. after two light attacks, a heavy attack can be performed
 - Add a Winning message when all villain has 0 or less hp. [1]
